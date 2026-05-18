@@ -54,7 +54,7 @@ class Multi30kDataset(Dataset):
         self.data_split = split
         self.german_nlp, self.english_nlp = fetch_spacy_models()
         
-        hf_dataset = load_dataset("bentrevett/multi30k", trust_remote_code=True)
+        hf_dataset = load_dataset("bentrevett/multi30k")
         self.raw_corpus = hf_dataset[split]
         
         if src_vocab is None or tgt_vocab is None:
