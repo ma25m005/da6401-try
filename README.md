@@ -1,8 +1,8 @@
 # DA6401 - Assignment 3: Implementing a Transformer for Machine Translation
 
-**Name:** Jaydeep Makwana
+**Name:** Aritra Dasgupta
 
-**Roll Number:** DA25M013
+**Roll Number:** MA25M005
 
 **Course:** DA6401 - Introduction to Deep Learning
 
