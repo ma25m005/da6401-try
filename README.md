@@ -10,9 +10,9 @@
 
 ## W&B Report
 
-[View Full Experiment Report on Weights & Biases]([https://wandb.ai/ma25m005-iit-madras/da6401-assignment3/reports/Implementing-a-Transformer-for-Machine-Translation--VmlldzoxNjkyNzIwMg?accessToken=lykk1tqa6cxutx390jcrojmjguhqsx6xx36ms2zsqkjo6hl36oc3kma5y8jpiaj7])
+[View Full Experiment Report on Weights & Biases]([https://api.wandb.ai/links/ma25m005-iit-madras/neylhr17])
 
-LINK : [https://wandb.ai/ma25m005-iit-madras/da6401-assignment3/reports/Implementing-a-Transformer-for-Machine-Translation--VmlldzoxNjkyNzIwMg?accessToken=lykk1tqa6cxutx390jcrojmjguhqsx6xx36ms2zsqkjo6hl36oc3kma5y8jpiaj7]
+LINK : [https://api.wandb.ai/links/ma25m005-iit-madras/neylhr17)]
 
 The report covers all five required experiments:
 - Noam Scheduler vs Fixed Learning Rate
@@ -113,7 +113,7 @@ lrate = d_model^(-0.5) * min(step^(-0.5), step * warmup_steps^(-1.5))
 | batch_size | 128 |
 | epochs | 20 |
 
-A smaller model (d_model=256, N=3) is used to fit within Colab T4 GPU memory and training time constraints while still achieving reasonable BLEU scores on Multi30k.
+A smaller model (d_model=256, N=3) is used to fit within Kaggle T4 GPU memory and training time constraints while still achieving reasonable BLEU scores on Multi30k.
 
 ---
 
@@ -141,9 +141,6 @@ This will:
 - Save the best checkpoint to `best_checkpoint.pt`
 - Evaluate BLEU on the test set and log to W&B
 
-### 3. Run on Google Colab
-
-Open the provided `DA6401_A3_Colab.ipynb` notebook. Set the runtime to **GPU (T4)**. Run all cells in order. The notebook handles all dependency installation, training, ablation experiments, and W&B logging automatically.
 
 ---
 
