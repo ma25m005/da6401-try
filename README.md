@@ -10,9 +10,9 @@
 
 ## W&B Report
 
-[View Full Experiment Report on Weights & Biases](https://api.wandb.ai/links/jaydeep316-i/szdhqk77)
+[View Full Experiment Report on Weights & Biases]([https://wandb.ai/ma25m005-iit-madras/da6401-assignment3/reports/Implementing-a-Transformer-for-Machine-Translation--VmlldzoxNjkyNzIwMg?accessToken=lykk1tqa6cxutx390jcrojmjguhqsx6xx36ms2zsqkjo6hl36oc3kma5y8jpiaj7])
 
-LINK : https://api.wandb.ai/links/jaydeep316-i/szdhqk77
+LINK : [https://wandb.ai/ma25m005-iit-madras/da6401-assignment3/reports/Implementing-a-Transformer-for-Machine-Translation--VmlldzoxNjkyNzIwMg?accessToken=lykk1tqa6cxutx390jcrojmjguhqsx6xx36ms2zsqkjo6hl36oc3kma5y8jpiaj7]
 
 The report covers all five required experiments:
 - Noam Scheduler vs Fixed Learning Rate
